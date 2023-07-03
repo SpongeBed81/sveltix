@@ -3,6 +3,7 @@ import { writable } from "svelte/store";
 /**
  *
  * @param {object} value
+ * @template T
  * @returns { { useStore: import("svelte/store").Writable<T>, useProxy: Proxy } }
  */
 export function sveltix(value) {
@@ -45,6 +46,7 @@ export function sveltix(value) {
 
   /**
    * Returns a writable store which can be used in template.
+   * @template T
    * @returns {import("svelte/store").Writable<T>}
    */
   bindState.useStore = function () {
