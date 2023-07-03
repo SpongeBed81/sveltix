@@ -37,5 +37,24 @@
   },
   "svelte": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "description": "I will write readme soon.",
+  "main": "svelte.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpongeBed81/sveltix.git"
+  },
+  "keywords": [
+    "pinia",
+    "vue",
+    "state",
+    "vuex",
+    "svelte"
+  ],
+  "author": "SpongeBed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpongeBed81/sveltix/issues"
+  },
+  "homepage": "https://github.com/SpongeBed81/sveltix#readme"
 }
