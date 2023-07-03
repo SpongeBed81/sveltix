@@ -4,7 +4,7 @@ Better way to manage your complex stores in Svelte.
 
 ## Why?
 
-Even though Svelte has a great store system it is very hard to work with complex data. Sveltix solves this issue by providing a flexible API like Pinia which is integrated with Svelte stores, automaticly giving you the flexibility out of the box.
+Even though Svelte has a great store system. However, it is very hard to work with complex data. Sveltix solves this issue by providing a flexible API like Pinia which is integrated with Svelte stores, automaticly giving you the flexibility out of the box.
 
 ## Usage
 
